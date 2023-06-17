@@ -1,0 +1,15 @@
+﻿@page
+@model TestProject.Pages.DetailsModel
+@{
+}
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Student.Name</h5>
+        <h6 class="card-subtitle mb-2 text-muted">@Model.Student.Email</h6>
+        <h6 class="card-subtitle mb-2 text-muted">@Model.Student.Phone</h6>
+
+        <a asp-page="Index" class="card-link">Back</a>
+        <a href="#" class="card-link">Another link</a>
+    </div>
+</div>
